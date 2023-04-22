@@ -1,0 +1,168 @@
+*{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;}
+
+
+li, a, button{
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+.logo{
+    cursor: pointer;
+}
+.nav_links{
+    list-style: none;
+}
+.nav_links li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+.nav_links li a{
+    transition: all 0.3s ease 0s;
+}
+.button a button{
+    padding: 8px 20px;
+    gap: 10px;
+    position: absolute;
+    width: 108px;
+    height: 36px;
+    right: 136px;
+    top: 35px;
+    background-color: #ED017F ;
+    color: white;
+    border: 0;
+}
+.home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home-content a button{
+   left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+}
+.home-content h3{
+    position: absolute;
+width: 453px;
+height: 136px;
+left: 135px;
+top: 222px;
+font-style: normal;
+font-weight: 900;
+font-size: 63px;
+line-height: 68px;
+}
+.home-content p{
+    position: absolute;
+width: 380px;
+height: 44px;
+left: 135px;
+top: 381px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+}
+.funct{
+   text-align: center; 
+}
+.funct h2{
+height: 43px;
+left: 22.43%;
+right: 22.36%;
+top: 100px;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 43px;
+}
+.funct p{
+height: 44px;
+left: 27.08%;
+right: 27.08%;
+top: 163px;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 22px;
+color: #999999;
+}
+.functio {
+    display: flex;
+    justify-content: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 135px;
+
+}
+.functi h1{
+width: 93px;
+height: 22px;
+font-style: normal;
+font-weight: 700;
+font-size: 22px;
+line-height: 22px;
+}
+.functi p{
+width: 160px;
+height: 96px;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+.function {
+    display: flex;
+    justify-content: center;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    gap: 135px;
+}
+.functis h1{
+    width: 93px;
+    height: 22px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+    }
+.functis p{
+    width: 160px;
+    height: 96px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    }
+.slider .slide{
+    text-align: center;
+    
+}
+.slider .slide h1{
+    width: 278px;
+    height: 23px;
+    
+    top: 78px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    
+}
+
